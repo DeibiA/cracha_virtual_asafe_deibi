@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #c2c2e6a8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 500px;
+    height: 650px;
+    background-color: #FFF;
+    border-radius: 10px;
+    box-shadow: 6px 5px 25px -17px #00000080;
+
+}
+
+.card-top {
+    width: 95%;
+    height: 200px;
+    border-radius: 10px;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    margin: 10px;
+    position: relative;
+}
+
+.aro {
+    width: 150px;
+    height: 150px;
+    background-color: #b5b2cf65;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: -30px;
+    left: 30px;
+
+}
+
+.aro img {
+    width: 120px;
+}
+
+.card-inf {
+    margin:50px 50px;
+}
+
+.card-inf p {
+    margin:10px 0;
+}
+
+.card-inf div{
+    margin:30px 0;
+}
+
+.html {
+    background-color: #e2581f;
+    color: #FFF;
+    padding: 4px 10px;
+    border-radius: 5px;
+}
+
+.css {
+    background-color: #8155bf;
+    color: #FFF;
+    padding: 4px 10px;
+    border-radius: 5px;
+}
+
+.git {
+    background-color: #000;
+    color: #FFF;
+    padding: 4px 10px;
+    border-radius: 5px;
+}
